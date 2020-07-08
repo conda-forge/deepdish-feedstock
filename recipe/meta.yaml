@@ -8,7 +8,7 @@ package:
 
 source:
   fn: v{{ version }}.zip
-  url: https://github.com/uchicago-cs/{{ name }}/archive/v{{ version }}.zip
+  url: url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
